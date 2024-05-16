@@ -1,0 +1,86 @@
+:py:mod:`visualization`
+=======================
+
+.. py:module:: visualization
+
+
+Module Contents
+---------------
+
+
+Functions
+~~~~~~~~~
+
+.. autoapisummary::
+
+   visualization.obtain_distr
+   visualization.plot_distribution
+   visualization.plotnine_distribution
+   visualization.seaborn_distribution
+   visualization.show_all_distributions
+   visualization.all_distributions_subplotnine
+   visualization.all_distributions_subseaborn
+   visualization.check_datasets
+   visualization.method_validation_plots
+   visualization.model_inference_plots
+   visualization.correlation_plots
+   visualization.arch_plots
+   visualization.arch_heatmap
+   visualization.less_genes_heatmap
+   visualization.mrmr_plots
+   visualization.aac_noise_plots
+   visualization.learn_exp_plots
+
+
+
+.. py:function:: obtain_distr(drug_name)
+
+
+.. py:function:: plot_distribution(drug_name)
+
+
+.. py:function:: plotnine_distribution(drug_name)
+
+
+.. py:function:: seaborn_distribution(drug_name)
+
+
+.. py:function:: show_all_distributions()
+
+
+.. py:function:: all_distributions_subplotnine()
+
+
+.. py:function:: all_distributions_subseaborn()
+
+
+.. py:function:: check_datasets(drugs)
+
+
+.. py:function:: method_validation_plots()
+
+
+.. py:function:: model_inference_plots()
+
+
+.. py:function:: correlation_plots()
+
+
+.. py:function:: arch_plots()
+
+
+.. py:function:: arch_heatmap()
+
+
+.. py:function:: less_genes_heatmap()
+
+
+.. py:function:: mrmr_plots()
+
+
+.. py:function:: aac_noise_plots()
+
+
+.. py:function:: learn_exp_plots()
+
+

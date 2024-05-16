@@ -1,0 +1,18 @@
+API Reference
+=============
+
+This page contains auto-generated API reference documentation [#f1]_.
+
+.. toctree::
+   :titlesonly:
+
+   /autoapi/cinet/index
+   /autoapi/data_managing/index
+   /autoapi/00_simple_train_test/index
+   /autoapi/01_hparam_tuning/index
+   /autoapi/02_results_after_tuning/index
+   /autoapi/visualization/index
+   /autoapi/experiments/index
+   /autoapi/03_compare/index
+
+.. [#f1] Created with `sphinx-autoapi <https://github.com/readthedocs/sphinx-autoapi>`_

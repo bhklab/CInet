@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>experiments &mdash; cinet  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+      <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css?v=fd3f3429" />
+      <link rel="stylesheet" type="text/css" href="../../_static/sphinx_paramlinks.css" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../../_static/documentation_options.js?v=5929fcd5"></script>
+        <script src="../../_static/doctools.js?v=9a2dae69"></script>
+        <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="03_compare" href="../03_compare/index.html" />
+    <link rel="prev" title="visualization" href="../visualization/index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../index.html" class="icon icon-home">
+            cinet
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../example.html">Example usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../changelog.html">Changelog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../conduct.html">Code of Conduct</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">API Reference</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../cinet/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">cinet</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../data_managing/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">data_managing</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../00_simple_train_test/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">00_simple_train_test</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../01_hparam_tuning/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">01_hparam_tuning</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../02_results_after_tuning/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">02_results_after_tuning</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../visualization/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">visualization</span></code></a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#"><code class="xref py py-mod docutils literal notranslate"><span class="pre">experiments</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#module-contents">Module Contents</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#functions">Functions</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../03_compare/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">03_compare</span></code></a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">cinet</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../index.html">API Reference</a></li>
+      <li class="breadcrumb-item active"><code class="xref py py-mod docutils literal notranslate"><span class="pre">experiments</span></code></li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/autoapi/experiments/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="module-experiments">
+<span id="experiments"></span><h1><a class="reference internal" href="#module-experiments" title="experiments"><code class="xref py py-mod docutils literal notranslate"><span class="pre">experiments</span></code></a><a class="headerlink" href="#module-experiments" title="Link to this heading"></a></h1>
+<section id="module-contents">
+<h2>Module Contents<a class="headerlink" href="#module-contents" title="Link to this heading"></a></h2>
+<section id="functions">
+<h3>Functions<a class="headerlink" href="#functions" title="Link to this heading"></a></h3>
+<table class="autosummary longtable docutils align-default">
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#experiments.train" title="experiments.train"><code class="xref py py-obj docutils literal notranslate"><span class="pre">train</span></code></a>(drug, delta, batch_size, epochs, version, arch, ...)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#experiments.test_gcsi" title="experiments.test_gcsi"><code class="xref py py-obj docutils literal notranslate"><span class="pre">test_gcsi</span></code></a>(drug, version)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#experiments.test_gdsc" title="experiments.test_gdsc"><code class="xref py py-obj docutils literal notranslate"><span class="pre">test_gdsc</span></code></a>(drug, version)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#experiments.test_ci" title="experiments.test_ci"><code class="xref py py-obj docutils literal notranslate"><span class="pre">test_ci</span></code></a>(versions, drugs)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#experiments.test_clinical" title="experiments.test_clinical"><code class="xref py py-obj docutils literal notranslate"><span class="pre">test_clinical</span></code></a>(version, cohort, drug)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#experiments.plot_ci_delta" title="experiments.plot_ci_delta"><code class="xref py py-obj docutils literal notranslate"><span class="pre">plot_ci_delta</span></code></a>(versions, drugs)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#experiments.mass_train" title="experiments.mass_train"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mass_train</span></code></a>()</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#experiments.architecture_exploration" title="experiments.architecture_exploration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">architecture_exploration</span></code></a>()</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#experiments.hyperparameter_exploration" title="experiments.hyperparameter_exploration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">hyperparameter_exploration</span></code></a>()</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#experiments.method_validation" title="experiments.method_validation"><code class="xref py py-obj docutils literal notranslate"><span class="pre">method_validation</span></code></a>()</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#experiments.model_inference" title="experiments.model_inference"><code class="xref py py-obj docutils literal notranslate"><span class="pre">model_inference</span></code></a>()</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#experiments.correlation_exploration" title="experiments.correlation_exploration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">correlation_exploration</span></code></a>()</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#experiments.overfit_exp" title="experiments.overfit_exp"><code class="xref py py-obj docutils literal notranslate"><span class="pre">overfit_exp</span></code></a>()</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#experiments.less_genes_exp" title="experiments.less_genes_exp"><code class="xref py py-obj docutils literal notranslate"><span class="pre">less_genes_exp</span></code></a>()</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#experiments.mrmr_experiment" title="experiments.mrmr_experiment"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mrmr_experiment</span></code></a>()</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#experiments.learn_experiment" title="experiments.learn_experiment"><code class="xref py py-obj docutils literal notranslate"><span class="pre">learn_experiment</span></code></a>()</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#experiments.classify_target" title="experiments.classify_target"><code class="xref py py-obj docutils literal notranslate"><span class="pre">classify_target</span></code></a>(y)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#experiments.train_test_split_plot" title="experiments.train_test_split_plot"><code class="xref py py-obj docutils literal notranslate"><span class="pre">train_test_split_plot</span></code></a>()</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#experiments.cross_validation_plot" title="experiments.cross_validation_plot"><code class="xref py py-obj docutils literal notranslate"><span class="pre">cross_validation_plot</span></code></a>()</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#experiments.cross_val_mrmr" title="experiments.cross_val_mrmr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">cross_val_mrmr</span></code></a>()</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#experiments.gcsi_gdsc_tests" title="experiments.gcsi_gdsc_tests"><code class="xref py py-obj docutils literal notranslate"><span class="pre">gcsi_gdsc_tests</span></code></a>()</p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+<dl class="py function">
+<dt class="sig sig-object py" id="experiments.train">
+<span class="sig-prename descclassname"><span class="pre">experiments.</span></span><span class="sig-name descname"><span class="pre">train</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">drug</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">delta</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">batch_size</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">epochs</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">version</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arch</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">cross_validation</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#experiments.train" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="experiments.test_gcsi">
+<span class="sig-prename descclassname"><span class="pre">experiments.</span></span><span class="sig-name descname"><span class="pre">test_gcsi</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">drug</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">version</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#experiments.test_gcsi" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="experiments.test_gdsc">
+<span class="sig-prename descclassname"><span class="pre">experiments.</span></span><span class="sig-name descname"><span class="pre">test_gdsc</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">drug</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">version</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#experiments.test_gdsc" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="experiments.test_ci">
+<span class="sig-prename descclassname"><span class="pre">experiments.</span></span><span class="sig-name descname"><span class="pre">test_ci</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">versions</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">drugs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#experiments.test_ci" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="experiments.test_clinical">
+<span class="sig-prename descclassname"><span class="pre">experiments.</span></span><span class="sig-name descname"><span class="pre">test_clinical</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">version</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">cohort</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">drug</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#experiments.test_clinical" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="experiments.plot_ci_delta">
+<span class="sig-prename descclassname"><span class="pre">experiments.</span></span><span class="sig-name descname"><span class="pre">plot_ci_delta</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">versions</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">drugs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#experiments.plot_ci_delta" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="experiments.mass_train">
+<span class="sig-prename descclassname"><span class="pre">experiments.</span></span><span class="sig-name descname"><span class="pre">mass_train</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#experiments.mass_train" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="experiments.architecture_exploration">
+<span class="sig-prename descclassname"><span class="pre">experiments.</span></span><span class="sig-name descname"><span class="pre">architecture_exploration</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#experiments.architecture_exploration" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="experiments.hyperparameter_exploration">
+<span class="sig-prename descclassname"><span class="pre">experiments.</span></span><span class="sig-name descname"><span class="pre">hyperparameter_exploration</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#experiments.hyperparameter_exploration" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="experiments.method_validation">
+<span class="sig-prename descclassname"><span class="pre">experiments.</span></span><span class="sig-name descname"><span class="pre">method_validation</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#experiments.method_validation" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="experiments.model_inference">
+<span class="sig-prename descclassname"><span class="pre">experiments.</span></span><span class="sig-name descname"><span class="pre">model_inference</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#experiments.model_inference" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="experiments.correlation_exploration">
+<span class="sig-prename descclassname"><span class="pre">experiments.</span></span><span class="sig-name descname"><span class="pre">correlation_exploration</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#experiments.correlation_exploration" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="experiments.overfit_exp">
+<span class="sig-prename descclassname"><span class="pre">experiments.</span></span><span class="sig-name descname"><span class="pre">overfit_exp</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#experiments.overfit_exp" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="experiments.less_genes_exp">
+<span class="sig-prename descclassname"><span class="pre">experiments.</span></span><span class="sig-name descname"><span class="pre">less_genes_exp</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#experiments.less_genes_exp" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="experiments.mrmr_experiment">
+<span class="sig-prename descclassname"><span class="pre">experiments.</span></span><span class="sig-name descname"><span class="pre">mrmr_experiment</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#experiments.mrmr_experiment" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="experiments.learn_experiment">
+<span class="sig-prename descclassname"><span class="pre">experiments.</span></span><span class="sig-name descname"><span class="pre">learn_experiment</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#experiments.learn_experiment" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="experiments.classify_target">
+<span class="sig-prename descclassname"><span class="pre">experiments.</span></span><span class="sig-name descname"><span class="pre">classify_target</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">y</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#experiments.classify_target" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="experiments.train_test_split_plot">
+<span class="sig-prename descclassname"><span class="pre">experiments.</span></span><span class="sig-name descname"><span class="pre">train_test_split_plot</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#experiments.train_test_split_plot" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="experiments.cross_validation_plot">
+<span class="sig-prename descclassname"><span class="pre">experiments.</span></span><span class="sig-name descname"><span class="pre">cross_validation_plot</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#experiments.cross_validation_plot" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="experiments.cross_val_mrmr">
+<span class="sig-prename descclassname"><span class="pre">experiments.</span></span><span class="sig-name descname"><span class="pre">cross_val_mrmr</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#experiments.cross_val_mrmr" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="experiments.gcsi_gdsc_tests">
+<span class="sig-prename descclassname"><span class="pre">experiments.</span></span><span class="sig-name descname"><span class="pre">gcsi_gdsc_tests</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#experiments.gcsi_gdsc_tests" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../visualization/index.html" class="btn btn-neutral float-left" title="visualization" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../03_compare/index.html" class="btn btn-neutral float-right" title="03_compare" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Kevin Tabatabaei, Christopher Eeles, Benjamin Haibe-Kains Lab (BHK Lab).</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

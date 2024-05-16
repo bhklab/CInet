@@ -1,0 +1,39 @@
+:py:mod:`01_hparam_tuning`
+==========================
+
+.. py:module:: 01_hparam_tuning
+
+
+Module Contents
+---------------
+
+.. py:data:: file_dir
+   :value: '/home/gputwo/bhklab/kevint/cinet/train_data/'
+
+   
+
+.. py:data:: file_list
+
+   
+
+.. py:data:: param_grid
+
+   
+
+.. py:data:: save_dir
+   :value: './'
+
+   
+
+.. py:data:: data
+
+   
+
+.. py:data:: name
+
+   
+
+.. py:data:: dataType
+
+   
+

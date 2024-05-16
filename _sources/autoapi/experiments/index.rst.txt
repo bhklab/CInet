@@ -1,0 +1,102 @@
+:py:mod:`experiments`
+=====================
+
+.. py:module:: experiments
+
+
+Module Contents
+---------------
+
+
+Functions
+~~~~~~~~~
+
+.. autoapisummary::
+
+   experiments.train
+   experiments.test_gcsi
+   experiments.test_gdsc
+   experiments.test_ci
+   experiments.test_clinical
+   experiments.plot_ci_delta
+   experiments.mass_train
+   experiments.architecture_exploration
+   experiments.hyperparameter_exploration
+   experiments.method_validation
+   experiments.model_inference
+   experiments.correlation_exploration
+   experiments.overfit_exp
+   experiments.less_genes_exp
+   experiments.mrmr_experiment
+   experiments.learn_experiment
+   experiments.classify_target
+   experiments.train_test_split_plot
+   experiments.cross_validation_plot
+   experiments.cross_val_mrmr
+   experiments.gcsi_gdsc_tests
+
+
+
+.. py:function:: train(drug, delta, batch_size, epochs, version, arch, cross_validation)
+
+
+.. py:function:: test_gcsi(drug, version)
+
+
+.. py:function:: test_gdsc(drug, version)
+
+
+.. py:function:: test_ci(versions, drugs)
+
+
+.. py:function:: test_clinical(version, cohort, drug)
+
+
+.. py:function:: plot_ci_delta(versions, drugs)
+
+
+.. py:function:: mass_train()
+
+
+.. py:function:: architecture_exploration()
+
+
+.. py:function:: hyperparameter_exploration()
+
+
+.. py:function:: method_validation()
+
+
+.. py:function:: model_inference()
+
+
+.. py:function:: correlation_exploration()
+
+
+.. py:function:: overfit_exp()
+
+
+.. py:function:: less_genes_exp()
+
+
+.. py:function:: mrmr_experiment()
+
+
+.. py:function:: learn_experiment()
+
+
+.. py:function:: classify_target(y)
+
+
+.. py:function:: train_test_split_plot()
+
+
+.. py:function:: cross_validation_plot()
+
+
+.. py:function:: cross_val_mrmr()
+
+
+.. py:function:: gcsi_gdsc_tests()
+
+

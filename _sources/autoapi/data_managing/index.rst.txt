@@ -1,0 +1,70 @@
+:py:mod:`data_managing`
+=======================
+
+.. py:module:: data_managing
+
+
+Module Contents
+---------------
+
+
+Functions
+~~~~~~~~~
+
+.. autoapisummary::
+
+   data_managing.find_common_drugs
+   data_managing.find_common_cells
+   data_managing.assess_dataset
+   data_managing.clinical_filter_genes
+   data_managing.clinical_filter_patients
+   data_managing.obtain_ctrp_drugs
+   data_managing.generate_ctrp_files
+   data_managing.find_common_genes
+   data_managing.add_ctrp_genes
+   data_managing.extract_cancer_gene_census
+   data_managing.generate_cancer_gene_census_files
+   data_managing.fix_genes_files
+   data_managing.sort_cell_lines_datasets
+
+
+
+.. py:function:: find_common_drugs()
+
+
+.. py:function:: find_common_cells()
+
+
+.. py:function:: assess_dataset()
+
+
+.. py:function:: clinical_filter_genes()
+
+
+.. py:function:: clinical_filter_patients()
+
+
+.. py:function:: obtain_ctrp_drugs()
+
+
+.. py:function:: generate_ctrp_files(common_drugs)
+
+
+.. py:function:: find_common_genes()
+
+
+.. py:function:: add_ctrp_genes()
+
+
+.. py:function:: extract_cancer_gene_census()
+
+
+.. py:function:: generate_cancer_gene_census_files(dataset, genes)
+
+
+.. py:function:: fix_genes_files(dataset)
+
+
+.. py:function:: sort_cell_lines_datasets(dataset, common)
+
+
